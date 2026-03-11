@@ -7,7 +7,7 @@ export function WhatsAppButton() {
     // Substitua pelo número de WhatsApp do consultório
     const phoneNumber = "5500000000000"
     const message = encodeURIComponent("Olá! Gostaria de agendar uma consulta.")
-    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
+    window.open(`https://wa.me/+55554791613336?text=%5BN%C3%83O%20APAGAR%5DOl%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.`, "_blank")
   }
 
   return (
