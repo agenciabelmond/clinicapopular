@@ -9,23 +9,23 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Dentistas Consultório Popular',
   description: 'Conecte-se com nossa equipe e continue seu agendamento com segurança.',
-  generator: 'v0.app',
+  generator: 'Belmond',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/dentee.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/dentee.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/dentee.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/dentee.png',
   },
 }
 
