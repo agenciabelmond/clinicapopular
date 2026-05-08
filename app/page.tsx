@@ -31,20 +31,21 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-4 px-6 flex items-center justify-center bg-[#102a43] border-t border-white/10">
-        <div className="flex items-center gap-3">
-          <Image
-            src="/denterodape.png"
-            alt="Dentistas Popular"
-            width={32}
-            height={40}
-            className="h-auto w-auto max-h-[40px]"
-          />
-          <p className="text-white text-sm">
-            Dentistas Popular ® Todos os direitos reservados.
-          </p>
-        </div>
-      </footer>
+        {/* Footer */}
+    <footer className="w-full py-4 px-6 flex items-center justify-center bg-[#fff500] border-t border-black/10">
+      <div className="flex items-center gap-3">
+        <Image
+          src="/denterodape.png"
+          alt="Dentistas Popular"
+          width={32}
+          height={40}
+          className="h-auto w-auto max-h-[40px]"
+        />
+        <p className="text-black text-sm">
+          Dentistas Popular ® Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
 
     </main>
   )
