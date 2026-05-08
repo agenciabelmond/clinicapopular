@@ -6,9 +6,9 @@ export default function Home() {
     <main className="min-h-screen flex flex-col bg-[#1a365d]">
       
       {/* Header com Logo */}
-      <header className="w-full py-3 flex justify-center bg-[#0f2744]">
+      <header className="w-full py-3 flex justify-center bg-[#fff500] border-b border-black/10 shadow-sm">
         <Image
-          src="/logomenu.png"
+          src="/logo (2).png"
           alt="Dentistas Consultório Popular"
           width={260}
           height={95}
@@ -27,11 +27,11 @@ export default function Home() {
           Clique no botão abaixo para prosseguir seu atendimento
         </h1>
 
-        <WhatsAppButton/>
+        <WhatsAppButton />
       </section>
 
       {/* Footer */}
-      <footer className="w-full py-4 px-6 flex items-center justify-center bg-[#0f2744]">
+      <footer className="w-full py-4 px-6 flex items-center justify-center bg-[#102a43] border-t border-white/10">
         <div className="flex items-center gap-3">
           <Image
             src="/denterodape.png"
@@ -40,7 +40,7 @@ export default function Home() {
             height={40}
             className="h-auto w-auto max-h-[40px]"
           />
-          <p className="text-white/80 text-sm">
+          <p className="text-white text-sm">
             Dentistas Popular ® Todos os direitos reservados.
           </p>
         </div>
